@@ -1,3 +1,9 @@
+2023-04-06, Version 3.1.1
+=========================
+ * update Readme file (Bimal Jha)
+ * Added a workaround to avoid converting decimal and integer values to strings.
+ * Included a workaround to skip the process of converting decimal and integer values into strings.
+
 2022-12-05, Version 3.1.0
 =========================
 

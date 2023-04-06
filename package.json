@@ -1,15 +1,15 @@
 {
-  "name": "ibm_db",
+  "name": "@cityfurniture/ibm-db",
   "description": "IBM DB2 and IBM Informix bindings for node",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "main": "lib/odbc.js",
-  "homepage": "https://github.com/ibmdb/node-ibm_db/",
+  "homepage": "https://github.com/CityFurniture/node-ibm_db2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ibmdb/node-ibm_db.git"
+    "url": "git@github.com:CityFurniture/node-ibm_db2.git"
   },
   "bugs": {
-    "url": "https://github.com/ibmdb/node-ibm_db/issues"
+    "url": "https://github.com/CityFurniture/node-ibm_db2/issues"
   },
   "contributors": [
     "IBM <opendev@us.ibm.com>"

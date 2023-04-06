@@ -491,13 +491,13 @@ Local<Value> ODBC::GetColumnValue( SQLHSTMT hStmt, Column column,
         }
       }
       break;
-
-    case SQL_NUMERIC :
-      DEBUG_PRINTF("NUMERIC DATA SELECTED\n");
-    case SQL_DECIMAL :
-      DEBUG_PRINTF("DECIMAL DATA SELECTED\n");
-    case SQL_DECFLOAT :
-      DEBUG_PRINTF("DECFLOAT DATA SELECTED\n");
+  // prevent convert to double or float always return string
+    // case SQL_NUMERIC :
+    //   DEBUG_PRINTF("NUMERIC DATA SELECTED\n");
+    // case SQL_DECIMAL :
+    //   DEBUG_PRINTF("DECIMAL DATA SELECTED\n");
+    // case SQL_DECFLOAT :
+    //   DEBUG_PRINTF("DECFLOAT DATA SELECTED\n");
     case SQL_FLOAT :
     case SQL_REAL :
     case SQL_DOUBLE : 
